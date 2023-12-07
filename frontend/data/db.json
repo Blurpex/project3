@@ -1,0 +1,100 @@
+{
+  "tenants": [
+    {
+      "id": 1,
+      "name": "John Smith",
+      "email": "js@psu.edu",
+      "phoneNumber": "7176081964",
+      "address": "7632 Home Rd",
+      "checkIn": "2023-11-27",
+      "checkOut": "2023-12-27"
+    },
+    {
+      "name": "Rose Kayla",
+      "email": "rk@gmail.com",
+      "phone": "7176528368",
+      "address": "3826 Rutherford Rd",
+      "checkIn": "2023-11-27",
+      "checkOut": "2023-12-11",
+      "id": 2
+    },
+    {
+      "name": "Jeremy Kyle",
+      "email": "jk@gmail.com",
+      "phone": "7173430739",
+      "address": "8764 Jonestown Rd",
+      "checkIn": "2023-11-06",
+      "checkOut": "2023-12-28",
+      "id": 3
+    },
+    {
+      "id": 4,
+      "name": "Haris Ahmad",
+      "email": "ha@gmail.com",
+      "phone": "2726835791",
+      "address": "7529 Piketown RD",
+      "checkIn": "2023-11-27",
+      "checkOut": "2024-01-04"
+    }
+  ],
+  "maintenance": [
+    {
+      "name": "Orifkhon Kilichev",
+      "phoneNumber": "7173430739",
+      "email": "ofk8790@psu.edu",
+      "address": "5673 Earl Dr"
+    }
+  ],
+  "managers": [
+    {
+      "name": "Haris Ahmad",
+      "phoneNumber": "7176231712",
+      "email": "hka5236@psu.edu",
+      "address": "4920 Hamilton Dr"
+    }
+  ],
+  "requests": [
+    {
+      "address": "4920 Hamilton Dr",
+      "location": "Bathroom",
+      "description": "Leaky Toilet",
+      "image": "src/assets/toilet-leaking.jpg",
+      "date": "12/5/2023, 9:36:56 AM",
+      "status": "Completed",
+      "id": 1
+    },
+    {
+      "address": "3826 Rutherford Rd",
+      "location": "Living Room",
+      "description": "Moldy ceiling",
+      "date": "12/5/2023, 9:37:49 AM",
+      "status": "Completed",
+      "id": 2
+    },
+    {
+      "address": "8764 Jonestown Rd",
+      "location": "Bedroom",
+      "description": "Broken window",
+      "date": "12/5/2023, 9:39:29 AM",
+      "status": "Completed",
+      "id": 3
+    },
+    {
+      "address": "674 Reindeer Rd",
+      "location": "Bathroom",
+      "description": "Leaky shower head",
+      "date": "12/5/2023, 5:47:34 PM",
+      "status": "Pending",
+      "id": 4
+    },
+    {
+      "address": "4920 Hamilton Dr",
+      "location": "Living Room",
+      "description": "Broken window",
+      "image": "src/assets/broken-window.jpg",
+      "date": "12/5/2023, 7:13:44 PM",
+      "status": "Pending",
+      "id": 5
+    }
+  ]
+}
